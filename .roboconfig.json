@@ -1,0 +1,15 @@
+{
+  "@blackflux/robo-config-plugin": {
+    "tasks": [
+      "assorted/@npm-opensource"
+    ],
+    "variables": {
+      "repoKey": "blackflux/object-align",
+      "packageName": "object-align",
+      "projectName": "object-align",
+      "owner": "simlu",
+      "ownerName": "Lukas Siemon",
+      "mergeBot": "MrsFlux"
+    }
+  }
+}
