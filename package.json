@@ -17,7 +17,14 @@
     "type": "git",
     "url": "https://github.com/blackflux/object-align.git"
   },
-  "keywords": [],
+  "keywords": [
+    "object",
+    "sort",
+    "order",
+    "align",
+    "keys",
+    "recursive"
+  ],
   "author": "Lukas Siemon",
   "license": "MIT",
   "bugs": {
@@ -31,12 +38,11 @@
     "@babel/register": "7.4.4",
     "@blackflux/eslint-plugin-rules": "1.0.18",
     "@blackflux/robo-config-plugin": "1.10.5",
-    "@hapi/joi": "15.0.3",
     "babel-eslint": "10.0.1",
     "chai": "4.2.0",
     "coveralls": "3.0.4",
     "eslint": "5.16.0",
-    "js-gardener": "2.0.37",
+    "js-gardener": "2.0.38",
     "nyc": "14.1.1",
     "semantic-release": "15.13.12"
   },
