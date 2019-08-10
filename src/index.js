@@ -19,7 +19,7 @@ const objectAlign = (target, ref) => {
   const keysTarget = Object.keys(target);
   const keysRef = Object.keys(ref);
   keysTarget
-    .map(k => [k, keysRef.indexOf(k)])
+    .map((k) => [k, keysRef.indexOf(k)])
     .map(([k, idx]) => (idx === -1 ? [k, Number.MAX_VALUE] : [k, idx]))
     .sort(([k1, idx1], [k2, idx2]) => idx1 - idx2)
     .forEach(([k, idx]) => {
